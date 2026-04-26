@@ -1,6 +1,23 @@
 /* Add CSS Styling */
 
 .oddies {
-    background-color: rgb(255, 0, 220, .3);
+    background-color: rgba(236, 35, 112, 0.425);
     font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#two {
+
+    color: blue;
+    font-size: 36px;
+}
+
+#three {
+    font-size: 24px;
+}
+
+#four {
+    font-size: 24;
+    font-weight: bold;
+    background-color: rgba(137, 223, 116, 0.425);
+
 }
