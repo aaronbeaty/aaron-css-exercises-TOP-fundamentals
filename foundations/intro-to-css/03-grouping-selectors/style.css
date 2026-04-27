@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+
+.button {
+    font-size: 28px;
+    font-family: 'Helvetica', 'TimesNewRoman', sans-serif
+
+}
+
+#clickMe {
+    background-color: black;
+    color: white;
+}
+
+#noClickMe {
+    background-color: yellow;
+
+
+}
