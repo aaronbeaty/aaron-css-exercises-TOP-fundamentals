@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  padding: 24px;
+  gap: 16px; /*add gap to modal in place of giving children margins */
 }
 
 .icon {
@@ -33,6 +37,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.right{
+  display: flex;  
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .close-button {
@@ -49,6 +72,8 @@ body {
   border: 1px solid #eee;
   padding: 0;
 }
+
+
 
 button {
   cursor: pointer;
